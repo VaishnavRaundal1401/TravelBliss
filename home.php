@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet"  href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap">
-
+  <script src="https://kit.fontawesome.com/e3a09e1f0d.js" crossorigin="anonymous"></script>
   
 </head>
 <body>
@@ -99,8 +99,31 @@
   </a>
 </div>
 
+<!-- Features -->
+<section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+      <i class="icon fa-solid fa-location-dot fa-4x"></i>
+        <h3>JourneyGuru</h3>
+        <p>Discover the secrets of your destination with our "JourneyGuru" service.</p>
+      </div>
 
-<section class="my-5">
+      <div class="feature-box col-lg-4">
+      <i class="icon fa-solid fa-car fa-4x"></i>
+        <h3>RideRelay</h3>
+        <p>Simplify your transportation needs with "RideRelay".</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+      <i class="icon fa-solid fa-language fa-4x"></i>
+        <h3>TalkTraverse</h3>
+        <p>Break language barriers effortlessly with "TalkTraverse".</p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- <section class="my-5">
    <div class="py-5">
 	<h2 class="text-center">Gallery - Happy Faces😊</h2>
    </div>
@@ -159,7 +182,7 @@
 <footer>
     <h5 class="p-3 bg-dark text-white text-center">@travelwithus</h5>
 </footer>
-   
+    -->
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
