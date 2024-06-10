@@ -99,9 +99,13 @@
   </a>
 </div>
 
+
+<div>
+  <img class="bgImage" src="./image/jg3.jpeg" alt="">
+</div>
 <!-- Features -->
 <section id="features">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
       <div class="feature-box col-lg-4">
       <i class="icon fa-solid fa-location-dot fa-4x"></i>
         <h3>JourneyGuru</h3>
@@ -123,66 +127,14 @@
     </div>
   </section>
 
-<!-- <section class="my-5">
-   <div class="py-5">
-	<h2 class="text-center">Gallery - Happy Faces😊</h2>
-   </div>
 
-   <div class="container-fluid gallery-container">
-	<div class="row">
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g1.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g2.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g3.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g4.png" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g5.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g6.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g7.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g8.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-           <div class="col-lg-4 col-md-4 col-12">
-               <img src="image/g9.jpeg" class="img-fluid pb-4 gallery-img">
-           </div>
-        </div>
+  
+  <footer id="footer">
 
-<style>
-  .gallery-img {
-    height: 300px;
-    width: 300px; 
-  }
+  <i class="fa-brands fa-x-twitter"></i> <i class="f-icon fa-brands fa-facebook"></i> <i class="f-icon fa-brands fa-instagram"></i> <i class="f-icon fa-solid fa-envelope"></i>
+    <p class="f-end">© Copyright TravelBliss</p>
 
-.gallery-container {
-      padding-left: 55px;
-      
-    }
-
-</style>
-  </div>
-
-
-</section>
-
-
-
-
-<footer>
-    <h5 class="p-3 bg-dark text-white text-center">@travelwithus</h5>
-</footer>
-    -->
+  </footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
