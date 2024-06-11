@@ -20,8 +20,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="home.php">TravelBliss</a>
+<nav class="navbar navbar-expand-lg navbar-transparent bg-transparent" style="position:absolute; z-index: 4; width:100%" >
+  <a class="navbar-brand" href="home.php" style="color:#fff">TravelBliss</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,17 +29,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-      <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="home.php" style="color:#fff" >Home <span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="service.php">Services</a>
+        <a class="nav-link" href="service.php" style="color:#fff">Services</a>
       </li>
 	<li class="nav-item">
-        <a class="nav-link" href="about.php">About</a>
+        <a class="nav-link" href="about.php" style="color:#fff">About</a>
       </li>
 	<li class="nav-item">
-        <a class="nav-link" href="contact.php">Contact</a>
+        <a class="nav-link" href="contact.php" style="color:#fff">Contact</a>
       </li>
 
     </ul>
@@ -51,58 +51,12 @@
   </div>
 </nav>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
- </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="image/pune.jpeg" alt="PUNE" width="1100" height="500">
-      <div class="carousel-caption">
-        <h1>PUNE</h1>
-        <p>"Known as the 'Oxford of the East,' Pune seamlessly blends modernity with its rich historical and cultural heritage."</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="image/mumbai.jpeg" alt="MUMBAI" width="1100" height="500">
-      <div class="carousel-caption">
-        <h1>MUMBAI</h1>
-        <p>"The City of Dreams, where Bollywood meets bustling markets and a vibrant nightlife, offering a glimpse into the heartbeat of India."</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="image/kashmir.jpeg" alt="KASHMIR" width="1100" height="500">
-      <div class="carousel-caption">
-        <h1>KASHMIR</h1>
-        <p>"Paradise on Earth, with its breathtaking landscapes, serene lakes, and majestic mountains, captivating hearts with its timeless beauty."</p>
-      </div>   
-    </div>
-	<div class="carousel-item">
-     	  <img src="image/varanasi.jpeg" alt="VARANASI" width="1100" height="500">
-      	  <div class="carousel-caption">
-       	   <h1>VARANASI</h1>
-           <p>"The spiritual capital of India, where ancient rituals along the sacred Ganges River intertwine with bustling ghats and colorful markets, creating an otherworldly experience."
-</p>
-        </div>   
-    </div>
 
+<Button class="btn btn-outline-danger home-btn"><a href="./service.php" style="text-decoration: none; color:white">Explore our amazing services!!</a></Button>
+<video autoPlay muted loop className="background-video" style="width: 100%; height:100%; object-fit:cover; display:block; position:relative">
+  <source src='./video/homeVideo.mp4' type="video/mp4" />
+</video>
 
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-
-
-<div>
-  <img class="bgImage" src="./image/jg3.jpeg" alt="">
-</div>
 <!-- Features -->
 <section id="features">
     <div class="row d-flex justify-content-center">
